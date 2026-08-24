@@ -1,0 +1,3 @@
+Log de erros do projeto
+------------------------
+Nenhum erro registrado até o momento.
