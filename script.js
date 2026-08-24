@@ -7,3 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
     alert("Você clicou no título!");
   });
 });
+const imagens = document.querySelectorAll(".galeria img");
+imagens.forEach((img) => {
+  img.addEventListener("mouseover", () => {
+    img.style.opacity = "0.7";
+  });
+  img.addEventListener("mouseout", () => {
+    img.style.opacity = "1";
+  });
+});
