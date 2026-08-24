@@ -1,3 +1,4 @@
+// Script responsável pela interatividade da página
 console.log("Script carregado com sucesso!");
 
 document.addEventListener("DOMContentLoaded", () => {
